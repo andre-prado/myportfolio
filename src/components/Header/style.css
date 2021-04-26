@@ -18,8 +18,6 @@ button, input[type="reset"] {
 
     width: 100%;
     height: 120px;
-    padding-left: 40px;
-    padding-right: 40px;
 
     font-size: 18px;
     font-weight: 600;
@@ -34,6 +32,7 @@ button, input[type="reset"] {
     background-color: var(--color-latte);
 
     margin-top: 20px;
+    margin-left: 40px;
 }
 
 .header_menu {
@@ -42,4 +41,13 @@ button, input[type="reset"] {
 
     width: 280px;
     margin-top: 40px;
+    margin-right: 40px;
+}
+
+.header_menu-option {
+    cursor: pointer;
+}
+
+.header_menu-option:hover {
+    color: var(--color-slate);
 }
