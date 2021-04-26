@@ -1,4 +1,5 @@
-button, input[type="reset"] {
+button,
+input[type="reset"] {
     background: none;
     color: inherit;
     border: none;
@@ -50,4 +51,27 @@ button, input[type="reset"] {
 
 .header_menu-option:hover {
     color: var(--color-slate);
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 80%;
+        height: 80px;
+
+        min-width: 360px;
+    }
+
+    .header_logo {
+        width: 40px;
+        height: 40px;
+
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .header_menu {
+        width: 200px;
+        margin-top: 40px;
+        margin-right: 40px;
+    }
 }
